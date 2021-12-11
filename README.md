@@ -1,8 +1,6 @@
-# CS128 Final Project - Group Sheep
+# Wikipedia Graph Visualizer
 
-## Wikipedia Graph Visualizer and Pathfinder
-
-This repository contains the code for the group Sheep's CS128 Final Project.
+This repository contains the code that was started as the group Sheep's CS128 Final Project. (Gautam, Steven, Dexin)
 
 The notebook used for visualization in Milestone 2 is linked [here](https://colab.research.google.com/drive/1yhzumLYrf2ZYP0uOS4iKL4D-Yqyl_CnP#scrollTo=ge44kHU_AToS)
 
