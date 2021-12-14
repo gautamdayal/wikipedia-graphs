@@ -1,7 +1,7 @@
 from classes import *
 
-node_0 = WikiPage('/wiki/Kerbal_Space_Program', 'Kerbal Space Program')
-# print(node_0.make_csv())
+node_0 = WikiPage('/wiki/Doctor_Who', 'Doctor Who')
+print(node_0.make_csv())
 
 # def createSubgraph(root, breadth, depth):
 #     out_file = open(f"../data/{root.title}_{breadth}_{depth}", 'w')
@@ -9,4 +9,4 @@ node_0 = WikiPage('/wiki/Kerbal_Space_Program', 'Kerbal Space Program')
 #
 #     out_file.close()
 
-print(node_0.crawl(only_link=True))
+# print(node_0.crawl(only_link=True))

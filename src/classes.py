@@ -38,7 +38,7 @@ class WikiPage(object):
     def make_csv(self):
         dest_pages = self.crawl(only_link=True)
         out_file = open(f'../data/{self.title}.csv', 'w')
-        out_frame = pd.DataFrame(dest_pages)
+        out_frame = pd.DataFrame({'src':[self.link for link in dest_pages[self.link]], 'dest':[link for link in dest_pages[self.link]]})
         out_frame.to_csv(out_file)
         out_file.close()
         return dest_pages
